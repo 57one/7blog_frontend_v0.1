@@ -1,0 +1,62 @@
+/*媒体查询*/
+@media screen and (max-width: 768px) {
+	.m-mobile-hide {
+		display: none !important;
+	}
+	.m-mobile-show {
+		display: block !important;
+	}
+	.m-blogcard-show {
+		display: block !important;
+		width: 100%;
+	}
+	.m-mobile-content {
+		margin: 1em !important;
+	}
+}
+@media screen and (max-width: 1200px) {
+	
+}
+/*清除浮动*/
+.clearfix {
+}
+
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*分割线*/
+.m-divider {
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin: 12px 0;
+	background-color: #4834d4;
+	position: relative;
+}
+.m-divider-vertical {
+	display: block;
+	content: " ";
+	width: 1px;
+	height: 100%;
+	margin: 5px 0;
+	background-color: #ebeef5;
+	position: relative;
+}
+
+body {
+	background: url('~assets/img/background.png') no-repeat;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	outline: none;  /*去掉虚线框*/
+}
+
+.el-scrollbar__wrap{
+	overflow-x: hidden;
+}
